@@ -1,0 +1,72 @@
+.gallery{
+
+  .gallery_figure{
+      position: relative;
+      margin: 3rem 1rem;
+      &::before{
+          content: "";
+          position: absolute;
+          top: 2vw;
+          left: 80%;
+          width: 0.2rem;
+          height: 0%;
+          background-color: #fff;
+          z-index: 10;
+          transition: height 0.5s;
+      }
+      &::after{
+        content: "";
+        position: absolute;
+        top:30%;
+        left: 2rem;
+        width: 0%;
+        height: 0.2rem;
+        background-color: #fff;
+        transition: width 0.5s;
+    }
+    &:hover::before{
+        height: 80%;
+    }
+    &:hover::after{
+        width: 90%;
+    }
+    &:hover .gallery_img{
+        box-shadow: 0.5rem 0.5rem 0.1rem #e92929, 1rem 1rem 0.1rem #a2e946,
+        1.5rem 1.5rem 0.1rem #297ce9, 2rem 2rem 0.1rem #e92999;
+        filter: blur(0.3rem);
+        opacity: 0.5;
+        transform: scale(1.1);
+    }
+    &:hover .gallery_name{
+        width: 100%;
+        transition: width 1.5s 0.5s;
+    }
+    
+    .gallery_img{
+        width: 29vw;
+        height: 20vw;
+        object-fit: cover;
+        box-shadow: 0.3rem 0.3rem 0.1rem #e92929, 0.5rem 0.5rem 0.1rem #a2e946,
+        0.7rem 0.7rem 0.1rem #297ce9, 0.9rem 0.9rem 0.1rem #e92999;
+      transition: all 0.5s;
+    }
+    .gallery_name{
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+        font-size: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        color: #fff;
+        width: 0%;
+        overflow: hidden;
+        transition: width 0.3s;
+    }
+  }
+   
+}
+
+.resultlink{
+    display: flex;
+}

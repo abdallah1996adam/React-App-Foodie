@@ -1,2 +1,14 @@
-# React-App-Foodie
-It was React  project, to create a simple Food app to show a list of food recipes and also you can search for recipes by name, country, main ingredient or category.The  goal from this app was to put in practise my knowledge in React-js
+# react-app-Foodies
+Foodies - Une application ReactJS pour les passionnées de cuisine
+
+1-Javascript syntax extension (JSX)
+
+2-Etat local de composant
+
+3-Remonter l'etat de composant
+
+4-Ajax et API (axios)
+
+5-LocalStorage
+
+6-Routing (react-router-dom)

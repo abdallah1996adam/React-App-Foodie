@@ -1,0 +1,123 @@
+.container {
+  background-color: burlywood;
+  .text{
+    color: black;
+  }
+  p {
+    width: 53%;
+    margin-left: 15%;
+    margin-top: -14%;
+    line-height: 1.5rem;
+  }
+  .btnfavoris {
+    width: 149px;
+    height: 30px;
+    background: #f3f0f1;
+    position: relative;
+
+    border-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    margin-top: 1%;
+  }
+ 
+  .flex {
+    display: flex;
+  }
+  .favorislink {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    padding: 1% 5% 5% 0;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 39%;
+      height: 0.175rem;
+      right: 62%;
+      bottom: 65%;
+      background: #ea0eea;
+      transform: scale(0, 1);
+      transition: transform 0.3s ease;
+    }
+    &:hover::after {
+      transform: scale(1, 1);
+    }
+  }
+
+  a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    padding: 1% 5% 5% 0;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 67%;
+      height: 0.175rem;
+      right: 33%;
+      bottom: 65%;
+      background: #ea0eea;
+      transform: scale(0, 1);
+      transition: transform 0.3s ease;
+    }
+    &:hover::after {
+      transform: scale(1, 1);
+    }
+  }
+  img {
+    width: 25vw;
+    height: 17vw;
+    margin-left: 1%;
+  }
+
+  h3 {
+    font-family: "Lora", serif;
+    font-size: 2rem;
+  }
+  figure {
+    display: flex;
+    flex-direction: row-reverse;
+
+    margin-right: 5%;
+    position: relative;
+  }
+  .mesures {
+    margin-left: 5%;
+  }
+  ul {
+    list-style: none;
+  }
+  .flex {
+    display: flex;
+    margin-left: 1%;
+  }
+  .Instructions {
+    position: absolute;
+    padding-left: 48%;
+    margin-top: -17%;
+  }
+  .randomlink{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    padding: 1% 5% 5% 0;
+    &::after{
+      content: "";
+      position: absolute;
+      width: 38%;
+      height: 0.175rem;
+      right: 63%;
+      bottom: 65%;
+      background: #ea0eea;
+      transform: scale(0, 1);
+      transition: transform 0.3s ease;
+    }
+  }
+}

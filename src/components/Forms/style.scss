@@ -1,0 +1,133 @@
+.box {
+  padding-top: 1%;
+  padding-left: 20%;
+ 
+
+  .Category_form {
+    margin-left: -20%;
+  }
+  .Country_form {
+    margin-top: -3.5%;
+  }
+  .Ingredient_form {
+      margin-top: 5%;
+    margin-left: -20%;
+  }
+  .Name_form {
+    margin-top: -3.5%;
+  }
+  .Btn {
+ 
+    display: inline-block;
+    box-sizing: border-box;
+    transition: 0.5s;
+    height: 2rem;
+    width: 6%;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgba(0, 166, 0, 1);
+    color: #fff;
+    &:hover {
+      opacity: 2;
+    }
+  }
+  .input_form {
+    background: #fff;
+    width: 12%;
+    height: 2rem;
+    border-color: yellowgreen;
+    padding: 0 15px;
+    border-radius: 25px 0 0 25px;
+
+    &:focus {
+      border-color: yellowgreen;
+      outline: 0;
+      border-color: #2ecc71;
+    }
+  }
+  .input_form1 {
+    background: #fff;
+    width: 10%;
+    height: 2rem;
+    border-color: yellowgreen;
+    padding: 0 15px;
+    border-radius: 25px 0 0 25px;
+
+    &:focus {
+      border-color: yellowgreen;
+      outline: 0;
+      border-color: #2ecc71;
+    }
+  }
+  .inputI {
+    background: #fff;
+    width: 10%;
+    height: 2rem;
+    border-color: yellowgreen;
+    padding: 0 15px;
+    border-radius: 25px 0 0 25px;
+
+    &:focus {
+      border-color: yellowgreen;
+      outline: 0;
+      border-color: #2ecc71;
+    }
+  }
+  .BtnI{
+    display: inline-block;
+    box-sizing: border-box;
+    transition: 0.5s;
+    height: 2rem;
+    width: 5%;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgba(0, 166, 0, 1);
+    color: #fff;
+    &:hover {
+      opacity: 2;
+    }
+  }
+  .Btn2{
+    display: inline-block;
+    box-sizing: border-box;
+    transition: 0.5s;
+    height: 2rem;
+    width: 5%;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgba(0, 166, 0, 1);
+    color: #fff;
+    &:hover {
+      opacity: 2;
+    }
+  }
+}
+
+.RandomBtn {
+
+ margin-left: -7%;
+  width: 12rem;
+  height: 2rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.textAnim{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.text {
+   color: wheat; 
+   font-weight: bolder;
+  span {
+   font-size: 1.5rem;
+   font-family: "Merienda", serif;
+    color: yellowgreen;
+  }
+}
